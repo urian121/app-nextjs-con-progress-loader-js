@@ -3,7 +3,10 @@ import { ProgressLoaderContainer } from "progress-loader-js";
 import "progress-loader-js/dist/style.css";
 
 export default function Nosotros() {
-  ProgressLoaderContainer(["", "#1fb141"]);
+  ProgressLoaderContainer({
+    backgroundColor: "#ccc",
+    barColor: "crimson",
+  });
 
   return (
     <div>
